@@ -29,7 +29,7 @@ const Navbar = () => {
 					isNavbarHidden ? "hidden" : ""
 				} w-full absolute py-4 shadow-lg rounded-bl-lg rounded-br-lg top-full lg:flex lg:gap-10 lg:justify-end lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none mt-2`}
 			>
-				<ul className="block text-slate-800 lg:flex lg:justify-end">
+				<ul className="block text-slate-500 lg:flex lg:justify-end">
 					<li className="group">
 						<a
 							href="#location"
@@ -51,7 +51,7 @@ const Navbar = () => {
 							href="#menu"
 							className="mx-4 flex py-3 text-base font-bold lg:text-xl hover:text-[#FFC741] hover:-translate-y-1 hover:duration-500"
 						>
-							CONTACT
+							CAREERS
 						</a>
 					</li>
 					<li className="group">
@@ -59,11 +59,11 @@ const Navbar = () => {
 							href="#contact"
 							className="mx-4 flex py-3 text-base font-bold lg:text-xl hover:text-[#FFC741] hover:-translate-y-1 hover:duration-500"
 						>
-							CAREERS
+							CONTACT
 						</a>
 					</li>
 				</ul>
-				<div className="mt-5 mx-4 font-bold text-base cursor-pointer underline hover:text-[#FFC741] lg:mt-0 lg:text-xl lg:no-underline lg:px-8 lg:py-3 lg:border lg:border-[#FFC741] lg:rounded-tl-3xl lg:rounded-br-3xl lg:hover:bg-[#FFC741] lg:hover:text-white duration-300">
+				<div className="mt-5 mx-4 font-bold text-base text-slate-500 cursor-pointer underline hover:text-[#FFC741] lg:mt-0 lg:text-xl lg:no-underline lg:px-8 lg:py-3 lg:text-white lg:border lg:border-[#FFC741] lg:rounded-tl-3xl lg:rounded-br-3xl lg:bg-[#FFC741] lg:hover:bg-transparent lg:hover:text-[#FFC741] duration-300">
 					Join Us
 				</div>
 			</nav>
